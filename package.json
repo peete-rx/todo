@@ -1,16 +1,19 @@
 {
-  "name": "eth-todo-list",
+  "name": "todo",
   "version": "1.0.0",
   "description": "Blockchain Todo List Powered By Ethereum",
   "main": "truffle-config.js",
   "directories": {
     "test": "test"
   },
+  "engines": {
+    "node": "8"
+  },
   "scripts": {
     "dev": "lite-server",
     "test": "echo \"Error: no test specified\" && sexit 1"
   },
-  "author": "gregory@dappuniversity.com",
+  "author": "peeter.developer@gmail.com",
   "license": "ISC",
   "devDependencies": {
     "bootstrap": "^4.6.0",
@@ -20,6 +23,7 @@
     "lite-server": "^2.3.0",
     "nodemon": "^1.17.3",
     "truffle": "^5.3.2",
-    "truffle-contract": "3.0.6"
+    "truffle-contract": "3.0.6",
+    "esversion": "8"
   }
 }
